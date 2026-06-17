@@ -34,4 +34,9 @@ func main(){
 	// len() maka hasilnya sama dengan maksimal data
 	var uniqArray [5]string;
 	fmt.Println(len(uniqArray)) // hasilnya 5 walaupun belum ada data yang diassign
+
+	//unlimite isi array
+	var unlimitedArray = [...]string{}
+	fmt.Println(unlimitedArray)
+	fmt.Println(len(unlimitedArray))
 }
