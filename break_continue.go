@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main(){
+	for counter := 1; counter <= 10; counter++{
+		// if counter == 5 {
+		// 	break
+		// }
+		if counter == 5 {
+			continue
+		}
+
+		fmt.Println("Counter:", counter)
+	}
+}
